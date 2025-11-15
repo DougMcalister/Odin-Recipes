@@ -32,3 +32,18 @@ body{
 .option a:hover{
     text-decoration: underline;
 }
+
+.page-buttons{
+    margin: auto;
+    padding: 15px;
+    border: red 10px;
+    gap: 25px;
+    display:flex;
+}
+.page-buttons button{
+    color: black;
+    background-color: grey;
+    height: 82px;
+    width: 66px;
+    flex: 1 1 0;
+}
